@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+.beerPage{
+    background-color: #282c34;
+    height: calc(100vh - 40px);
+    font-family: 'Edu TAS Beginner', cursive;
+    color: #cc5814;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        font-size: 35px;
+        color: chocolate;
+    }
+    a:hover{
+        text-decoration-line: underline;
+        box-shadow: 5px 4px 4px rgba(0, 0,0, 0.3);
+        border-radius: 3px;
+    }
+    .background{
+        background-image: url("https://webstockreview.net/images/clipart-beer-vintage-beer-13.png");
+        height: 700px;
+        width: 70vw;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        .info{
+            padding-top: 200px;
+            width: 50%;
+            img{
+                margin-top: 20px;
+                height: 100px;
+                width: 40px;
+            }
+        }
+    }
+}
+
+
+
