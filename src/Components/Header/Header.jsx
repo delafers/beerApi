@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className={"head"}>
             <div >
-                Welcome to
+                Welcome to the Beer world
             </div>
         </header>
     );
