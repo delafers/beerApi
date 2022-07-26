@@ -2,7 +2,7 @@ import React from 'react';
 import { Formik } from 'formik';
 import {useDispatch} from "react-redux";
 import {getBeersData} from "../../../redux/beer-reducer";
-import "./Finder.scss"
+import "./Finder.css"
 
 const Finder = () => {
     let dispatch = useDispatch()

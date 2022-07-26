@@ -1,5 +1,5 @@
 import React from 'react';
-import  "./OneBeer.scss"
+import  "./OneBeer.css"
 
 const OneBeer = ({id, description, abv, first_brewed, image_url, name, tagline}) => {
     return (

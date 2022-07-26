@@ -1,16 +1,16 @@
-.main{
+.main {
 
   color: brown;
-  background-color:   #292C30;
+  background-color: #292C33;
   min-height: calc(100vh - 40px);
-
+}
   NavLink{
     text-decoration: none;
   }
   h1{
 
   }
-}
+
 .beersList{
   display: grid;
   grid-template-columns: 1fr 1fr;

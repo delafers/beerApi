@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import {useEffect} from "react";
 import {getBeersData} from "./redux/beer-reducer";
 import {Provider, useDispatch} from "react-redux";

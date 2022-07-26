@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {NavLink, useNavigate, useParams} from 'react-router-dom';
 import {useDispatch, useSelector} from "react-redux";
 import {getOneBeer} from "../../redux/beer-reducer";
-import "./BeerPage.scss"
+import "./BeerPage.module.css"
 
 const BeerPage = (props) => {
     let navigate = useParams()

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Main.scss"
+import "./Main.css"
 import {useSelector} from "react-redux";
 import OneBeer from "./OneBeer/OneBeer";
 import Finder from "./Finder/Finder";
